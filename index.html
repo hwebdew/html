@@ -4,537 +4,385 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ooo포트폴리오</title>
-    <link rel="stylesheet"  href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" integrity="sha512-H9jrZiiopUdsLpg94A333EfumgUBpO9MdbxStdeITo+KEIMaNfHNvwyjjDJb+ERPaRS6DpyRlKbvPUasNItRyw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link href="css/main.css" rel="stylesheet" />
+    <title>JWD_D CLASS</title>
+    <!-- 스와이퍼 swiper cdn연결하여 사용하기 
+        https://swiperjs.com/get-started#use-swiper-from-cdn -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link href="lib/carouselTicker.css" rel="stylesheet" type="text/css"/>
+
+    <!-- <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/> -->
+
+     <!-- xeicon https://xpressengine.github.io/XEIcon/index.html-->
+    <link rel="stylesheet" href="lib/XEIcon-2.2.0/xeicon.min.css" />
+
+    <link href="css/reset.css" rel="stylesheet" type="text/css" />
+    <link href="css/common.css" rel="stylesheet" type="text/css" />
+    <link href="css/main.css" rel="stylesheet" type="text/css"/>
+    
 </head>
 <body>
-    <header>
-        <div>
-            <h1>
-                <a href="#">
-                    <img src="images/logo.png" alt="00로고" /><!-- 로고 이미지 적용 / 이미지를 적용하지 않을 경우 텍스트로 변경  -->
-                </a>
-            </h1>
-            <ul>
-                <li><a href="images/resume.hwp" download>resume</a></li>
-            </ul>
-        </div>
-    </header>
-
-    <!-- 메인비주얼 영역 -->
-    <div class="main_visual">
+    <main>
+        <div class="main_visual">
+            <!-- <video muted autoplay>
+                <source src="img/door_bg.mp4" type="video/mp4" />
+            </video> -->
         
-        <div class="mv_t">
-            <h1>motion graphic designer</h1>
-            <p>ha su jeong</p>
-        </div><!-- .mv_t end -->
-    </div><!-- .main_visual end --> 
+             
+            <div class="title">
+                <p>web design class</p>
+                <h2>Ha Su Jeong Designer</h2>
+            </div>
+            <p>JWD_D by hasujeong</p>
+        </div><!-- .main_visual -->
+        <section class="cont02">
+            <div class="cont02_wrap">
+                <div class="left">
+                    <div class="title">                 
+                        <h3>웹디자이너<br />즐겨찾기</h3>
+                        <p>웹디자인 제작시 활용하기 좋은 사이트<br />확장/설치 프로그램</p>
+                    </div><!-- .title end -->
+                    <article>
+                        <a href="#">
+                            <img src="img/book_01.jpg" alt="디자인프로그램 및 구글 확장프로그램" />
+                            <p>프로그램 및 사이트 안내</p>
+                        </a>
+                    </article>
+                    <article>
+                        <a href="sub/book02.html" target="_blank">
+                            <img src="img/book_03.jpg" alt="디자인공부하기 좋은 사이트" />
+                            <p>웹 수업파일 업로드</p>
+                        </a>
+                    </article>
+                    
+                </div><!-- .left end -->
+                <div class="right">
+                    <article>
+                        <a href="#">
+                            <img src="img/book_02.jpg" alt="디자인 및 코딩무료 소스 제공 사이트" />
+                            <p>기본형/반응형 웹 템플릿 디자인</p>
+                        </a>
+                    </article>
+                    
+                </div><!-- .right end -->
+                 
+            </div><!-- cont02_wrap end -->
+        </section><!-- .cont02 end -->
 
-    <!-- 이력 작성 영역 -->
-    <section class="profile">
-        <div class="photo">
-            <figure><img src="images/img02.jpg" alt="oo얼굴" /></figure> 
-        </div>
-        <div class="about">
+        <section class="cont01"> 
+            <div class="left">
+                <div>
+                    <article> 
+                        <a href="#">
+                            <figure>
+                                <img src="img/study_d.jpg" alt="웹 코딩 수업" />
+                            </figure> 
+                            <p>PDF 다운로드<i class="xi-download"></i></p>
+                        </a> 
+                    </article>
+                </div>
+            </div><!-- .left -->
+            
+            <div class="right">
+                <div class="title">                 
+                    <h3>웹디자인과정 수업자료</h3>
+                    <p>웹디자인관련 과정에서 사용되고 있는<br />커리큘럼과 수업자료</p>
+                </div><!-- .title end -->
+                <div class="flex">
+                    <article>
+                        <a href="#">
+                            <figure>
+                                <img src="img/study01.jpg" alt="웹 코딩 수업" />
+                            </figure>
+                            <dl>
+                                <dt>웹/앱 퍼블리싱 수업</dt>
+                                <dd>웹/앱 디자인 과정에서<br />
+                                    웹/앱 페이지 구현을 위한 코딩 강좌</dd>
+                                <dd class="plus"><i class="xi-plus"></i></dd>
+                            </dl>
+                        </a>
+                    </article>
+                    <article>
+                        <a href="#">
+                            <figure>
+                                <img src="img/study02.jpg" alt="포토샵/일러스트 수업" />
+                            </figure>
+                            <dl>
+                                <dt>포토샵/일러스트 수업</dt>
+                                <dd>웹디자인 과정에서<br />
+                                    디자인 구성과 설계를 위한 강좌</dd>
+                                <dd class="plus"><i class="xi-plus"></i></dd>
+                            </dl>
+                        </a>
+                    </article>
+                    <article>
+                        <a href="#">
+                            <figure>
+                                <img src="img/study04.jpg" alt="웹 코딩 수업" />
+                            </figure>
+                            <dl>
+                            <dt>ncs 수업</dt>
+                            <dd>웹디자인 과정에서<br />
+                                실무에서 필요한 지식 및 스킬에 대한 ncs수업</dd>
+                                <dd class="plus"><i class="xi-plus"></i></dd>
+                            </dl>
+                        </a>
+                    </article>
+                    <article>
+                        <a href="#">
+                            <figure>
+                                <img src="img/study03.jpg" alt="웹페이지 실무 자료" />
+                            </figure>
+                            <dl>
+                                <dt>포트폴리오 모음</dt>
+                                <dd>웹디자인 과정에서 제작된<br />
+                                    훈련생들의 포트폴리오 정리</dd>
+                                <dd class="plus"><i class="xi-plus"></i></dd>
+                            </dl>
+                        </a>
+                    </article>
+                </div>
+            </div>
+        </section><!-- .cont01 -->
+
+        
+
+        <section class="cont03"> 
+            <div class="cont03_tit">
+                <div class="title">
+                    <h3>레이아웃/ 템플릿</h3>
+                    <p>디자인, 코딩 수업 시 사용된<br />
+                        레이아웃과 템플릿</p>
+                </div>
+                <p class="title_btn"><a href="#">페이지 바로가기</a></p>
+            </div><!-- cont03_tit end -->
+            <div class="cont03_slider">
+            
+                <div class="swiper cont03_sliders">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <a href="sub/tem_2/index.html" target="_blank">
+                                <p><img src="img/list02.jpg" alt=""></p>
+                                <dl>
+                                    <dt>#영상 포트폴리오</dt>
+                                    <dd>모션/영상 포트폴리오 템플릿vel.1</dd>
+                                </dl>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <p><img src="img/list02.jpg" alt=""></p>
+                            <dl>
+                                <dt>Lorem Ipsum</dt>
+                                <dd>Lorem Ipsum Lorem Ipsum</dd>
+                            </dl>
+                        </div>
+                        <div class="swiper-slide">
+                            <p><img src="img/list01.jpg" alt=""></p>
+                            <dl>
+                                <dt>Lorem Ipsum</dt>
+                                <dd>Lorem Ipsum Lorem Ipsum</dd>
+                            </dl>
+                        </div>
+                        <div class="swiper-slide">
+                            <p><img src="img/list01.jpg" alt=""></p>
+                            <dl>
+                                <dt>Lorem Ipsum</dt>
+                                <dd>Lorem Ipsum Lorem Ipsum</dd>
+                            </dl>
+                        </div>
+                        <div class="swiper-slide">
+                            <p><img src="img/list01.jpg" alt=""></p>
+                            <dl>
+                                <dt>Lorem Ipsum</dt>
+                                <dd>Lorem Ipsum Lorem Ipsum</dd>
+                            </dl>
+                        </div>
+                        <div class="swiper-slide">
+                            <p><img src="img/list01.jpg" alt=""></p>
+                            <dl>
+                                <dt>Lorem Ipsum</dt>
+                                <dd>Lorem Ipsum Lorem Ipsum</dd>
+                            </dl>
+                        </div>
+                        <div class="swiper-slide">
+                            <p><img src="img/list01.jpg" alt=""></p>
+                            <dl>
+                                <dt>Lorem Ipsum</dt>
+                                <dd>Lorem Ipsum Lorem Ipsum</dd>
+                            </dl>
+                        </div>
+                    </div>
+                </div>
+                <div class="btn_wrap">
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                </div>
+            </div> 
+        </section><!-- .cont03 end -->
+
+        <!-- <section class="cont04"> 
             <div>
-                <dl>
-                    <dt>하수정</dt>
-                    <dd>010-1234-5678</dd>
-                    <dd>99.09.99</dd>
-                </dl>
-                <dl>
-                    <dt>EDUCATION</dt>
-                    <dd>부산 그린컴퓨터아카데미<br />
-                    [멀티미디어콘텐츠제작]영상편집<br />(모션그래픽, 프리미어프로, 에프터이펙트)과정 수료</dd>
-                    <dd>oo 대학교 전공 졸업</dd>
-                    <dd>oo 고등학교 졸업</dd>
-                </dl>
-                <dl>
-                    <dt>LICENSE</dt>
-                    <dd>자경증 리스트 작성</dd>
-                </dl>
-                <dl>
-                    <dt>SKILLS</dt>
-                    <dd>html, css, js</dd>
-                    <dd>포토샵</dd>
-                    <dd>일러스트</dd>
-                    <dd>프리미어프로</dd>
-                    <dd>애프터이펙트</dd>
-                </dl>
-            </div>
-        </div><!-- about end -->
-    </section><!-- profile end -->
-
-
-    <!-- 베스트 미디어 적용 -->
-    <section class="video v1">
-        <h3>BEST MEDIA</h3>
-        <div class="video_box">
-            <div class="info">
-                <p class="cate">#게임</p>
-                <h4>바버, 오늘과 과거를 잇다.</h4>
-                <p class="produce">연출, 촬영, 편집, 디자인, 특수효과 / 모방</p>
-                <p class="text">
-                    제작목적 및 콘셉트 Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor amet nostrum dolore quae iste neque suscipit voluptatum nam
-                </p>
-
-                <dl>
-                    <dt>프로그램</dt>
-                    <dd>Photoshop, Illustrator, Premiere Pro, After Effects</dd>
-                </dl>
-                <dl>
-                    <dt>배경음악 </dt>
-                    <dd>사월 - 새로운 마음</dd>
-                </dl>
-                <dl>
-                    <dt>러닝타임</dt>
-                    <dd>3m 34s</dd>
-                </dl>
-                
-                <ul class="btn">
-                    <li><a href="#">영상보기</a></li>
-                    <li><a href="#">기획서보기</a></li>
-                </ul>
-            </div><!-- .info end -->
-            <div class="images">
-                <figure>
-                    <img src="https://via.placeholder.com/250x250" alt="" />
-                </figure>
-                <figure>
-                    <img src="https://via.placeholder.com/250x250" alt="" />
-                </figure> 
-                <figure>
-                    <img src="https://via.placeholder.com/250x250" alt="" />
-                </figure> 
-                <figure>
-                    <img src="https://via.placeholder.com/250x250" alt="" />
-                </figure> 
-            </div><!-- .images end -->
-            <div class="video_tag">
-                <!-- mp4 적용할 경우 -->
-                <!-- <video controls>
-                    <source src="images/tree.mp4" type="video/mp4">
-                </video> -->
-
-                <!-- 유튜브 연결할 경우 -->
-                <div class="youtube"> 
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/DkXvif19ffg?start=34&amp;playlist=DkXvif19ffg&amp;loop=1&autoplay=1&mute=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                </div>
-
-            </div>
-        </div><!-- .video_box end --> 
-    </section><!-- .video end / 01 -->
-
-    <section class="video v2"> 
-        <div class="video_box">
-            <div class="images">
-                <figure>
-                    <img src="https://via.placeholder.com/250x250" alt="" />
-                </figure>
-                <figure>
-                    <img src="https://via.placeholder.com/250x250" alt="" />
-                </figure> 
-                <figure>
-                    <img src="https://via.placeholder.com/250x250" alt="" />
-                </figure> 
-                <figure>
-                    <img src="https://via.placeholder.com/250x250" alt="" />
-                </figure> 
-            </div><!-- .images end -->
-
-            <div class="info">
-                <p class="cate">#홍보영상</p>
-                <h4>바버, 오늘과 과거를 잇다.</h4>
-                <p class="produce">연출, 촬영, 편집, 디자인, 특수효과 / 모방</p>
-                <p class="text">
-                    제작목적 및 콘셉트 Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor amet nostrum dolore quae iste neque suscipit voluptatum nam
-                </p>
-
-                <dl>
-                    <dt>프로그램</dt>
-                    <dd>Photoshop, Illustrator, Premiere Pro, After Effects</dd>
-                </dl>
-                <dl>
-                    <dt>배경음악 </dt>
-                    <dd>사월 - 새로운 마음</dd>
-                </dl>
-                <dl>
-                    <dt>러닝타임</dt>
-                    <dd>3m 34s</dd>
-                </dl>
-                
-                <ul class="btn">
-                    <li><a href="#">영상보기</a></li>
-                    <li><a href="#">기획서보기</a></li>
-                </ul>
-            </div><!-- .info end -->
-            
-            <div class="video_tag">
-                <video controls>
-                    <source src="images/tree.mp4" type="video/mp4">
-                </video>
-            </div>
-        </div><!-- .video_box end -->
-
-    </section><!-- .video end / 02 -->
- 
-
-    <!-- 카테고리별 유튜브 적용 -->
-    <!-- 카테고리 갯수만큼 -->
-    <section class="youtube_list">
-        <h3>MOTION GRAPHICS</h3>
-        <!-- 카테고리 메뉴 -->
-        <div class="motion_cate">
-            <ul>
-                <li class="on"><a href="#">게임</a></li>
-                <li><a href="#">홍보영상</a></li>
-                <li><a href="#">인포그래픽</a></li>
-                <li><a href="#">뮤비 티저</a></li>
-                <li><a href="#">영화 티저</a></li>
-            </ul>
-        </div>
-        <div class="youtube_wrap"><!-- content -->
-            <div class="motion_content">
-                <div class="swiper mySwiperBeween">
-                    <div class="swiper-wrapper motion_list on">
-                        <!-- swiper-slide => 컨텐츠 추가삭제 -->
-                        <div class="swiper-slide">
-                            <figure>
-                                <!-- <img src="images/img01.jpg" alt="" /> -->
-                                <div>
-                                    <iframe width="560" height="315" src="https://www.youtube.com/embed/DkXvif19ffg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                                </div>
-                            </figure>
-                            <div>
-                                <p>작업내용(각본 연출 촬영 편집 보정)</p>
-                                <h4>밀레니아 메이킹 다큐멘터리 필름</h4>
-                                
-                                <dl>
-                                    <dt>프로그램</dt>
-                                    <dd>Photoshop, Illustrator, Premiere Pro, After Effects</dd>
-                                </dl>
-                                <dl>
-                                    <dt>러닝타임</dt>
-                                    <dd>15s</dd>
-                                </dl>
-                                <dl>
-                                    <dt>URL주소</dt>
-                                    <dd><a href="#">https://www.youtube.com/</a></dd>
-                                </dl>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <figure>
-                                <div>
-                                    <iframe width="560" height="315" src="https://www.youtube.com/embed/pr__GAkZNEo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                                </div>
-                            </figure>
-                            <div>
-                                <p>작업내용(각본 연출 촬영 편집 보정)</p>
-                                <h4>밀레니아 메이킹 다큐멘터리 필름</h4>
-                                
-                                <dl>
-                                    <dt>프로그램</dt>
-                                    <dd>Photoshop, Illustrator, Premiere Pro, After Effects</dd>
-                                </dl>
-                                <dl>
-                                    <dt>러닝타임</dt>
-                                    <dd>15s</dd>
-                                </dl>
-                                <dl>
-                                    <dt>URL주소</dt>
-                                    <dd><a rhef="#">https://www.youtube.com/</a></dd>
-                                </dl>
-                            </div>
-                        </div><!-- swiper-slide end --> 
-                    </div>
-                </div><!-- .motion_list 1 -->
-                <div class="swiper mySwiperBeween">
-                    <div class="swiper-wrapper motion_list">
-                        <div class="swiper-slide">
-                            <figure>
-                                <div>
-                                    <iframe width="560" height="315" src="https://www.youtube.com/embed/fHRcVwtlvZ8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                                </div>
-                            </figure>
-                            <div>
-                                <p>작업내용(각본 연출 촬영 편집 보정)</p>
-                                <h4>밀레니아 메이킹 다큐멘터리 필름</h4>
-                                
-                                <dl>
-                                    <dt>프로그램</dt>
-                                    <dd>Photoshop, Illustrator, Premiere Pro, After Effects</dd>
-                                </dl>
-                                <dl>
-                                    <dt>러닝타임</dt>
-                                    <dd>15s</dd>
-                                </dl>
-                                <dl>
-                                    <dt>URL주소</dt>
-                                    <dd>https://www.youtube.com/</dd>
-                                </dl>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <figure>
-                                <!-- <img src="images/img01.jpg" alt="" /> -->
-                                <div>
-                                    <iframe width="560" height="315" src="https://www.youtube.com/embed/13jhFFYCWVU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                                </div>
-                            </figure>
-                            <div>
-                                <p>작업내용(각본 연출 촬영 편집 보정)</p>
-                                <h4>밀레니아 메이킹 다큐멘터리 필름</h4>
-                                
-                                <dl>
-                                    <dt>프로그램</dt>
-                                    <dd>Photoshop, Illustrator, Premiere Pro, After Effects</dd>
-                                </dl>
-                                <dl>
-                                    <dt>러닝타임</dt>
-                                    <dd>15s</dd>
-                                </dl>
-                                <dl>
-                                    <dt>URL주소</dt>
-                                    <dd>https://www.youtube.com/</dd>
-                                </dl>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <figure>
-                                <!-- <img src="images/img01.jpg" alt="" /> -->
-                                <div>
-                                    <iframe width="560" height="315" src="https://www.youtube.com/embed/13jhFFYCWVU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                                </div>
-                            </figure>
-                            <div>
-                                <p>작업내용(각본 연출 촬영 편집 보정)</p>
-                                <h4>밀레니아 메이킹 다큐멘터리 필름</h4>
-                                
-                                <dl>
-                                    <dt>프로그램</dt>
-                                    <dd>Photoshop, Illustrator, Premiere Pro, After Effects</dd>
-                                </dl>
-                                <dl>
-                                    <dt>러닝타임</dt>
-                                    <dd>15s</dd>
-                                </dl>
-                                <dl>
-                                    <dt>URL주소</dt>
-                                    <dd>https://www.youtube.com/</dd>
-                                </dl>
-                            </div>
-                        </div>
-                    </div>
-                </div><!-- motion_list 2 -->
-
-                <div class="swiper mySwiperBeween">
-                    <div class="swiper-wrapper motion_list">
-                        <div class="swiper-slide">
-                            <figure>
-                                <!-- <img src="images/img01.jpg" alt="" /> -->
-                                <div>
-                                    <iframe width="560" height="315" src="https://www.youtube.com/embed/13jhFFYCWVU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                                </div>
-                            </figure>
-                            <div>
-                                <p>작업내용(각본 연출 촬영 편집 보정)</p>
-                                <h4>밀레니아 메이킹 다큐멘터리 필름</h4>
-                                
-                                <dl>
-                                    <dt>프로그램</dt>
-                                    <dd>Photoshop, Illustrator, Premiere Pro, After Effects</dd>
-                                </dl>
-                                <dl>
-                                    <dt>러닝타임</dt>
-                                    <dd>15s</dd>
-                                </dl>
-                                <dl>
-                                    <dt>URL주소</dt>
-                                    <dd>https://www.youtube.com/</dd>
-                                </dl>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <figure>
-                                <!-- <img src="images/img01.jpg" alt="" /> -->
-                                <div>
-                                    <iframe width="560" height="315" src="https://www.youtube.com/embed/13jhFFYCWVU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                                </div>
-                            </figure>
-                            <div>
-                                <p>작업내용(각본 연출 촬영 편집 보정)</p>
-                                <h4>밀레니아 메이킹 다큐멘터리 필름</h4>
-                                
-                                <dl>
-                                    <dt>프로그램</dt>
-                                    <dd>Photoshop, Illustrator, Premiere Pro, After Effects</dd>
-                                </dl>
-                                <dl>
-                                    <dt>러닝타임</dt>
-                                    <dd>15s</dd>
-                                </dl>
-                                <dl>
-                                    <dt>URL주소</dt>
-                                    <dd>https://www.youtube.com/</dd>
-                                </dl>
-                            </div>
-                        </div>
-                    </div>
-                </div><!-- .motion_list 3 -->
-                
-                <div class="swiper mySwiperBeween">
-                    <div class="swiper-wrapper motion_list">
-                        <div class="swiper-slide">
-                            <figure>
-                                <!-- <img src="images/img01.jpg" alt="" /> -->
-                                <div>
-                                    <iframe width="560" height="315" src="https://www.youtube.com/embed/13jhFFYCWVU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                                </div>
-                            </figure>
-                            <div>
-                                <p>작업내용(각본 연출 촬영 편집 보정)</p>
-                                <h4>밀레니아 메이킹 다큐멘터리 필름</h4>
-                                
-                                <dl>
-                                    <dt>프로그램</dt>
-                                    <dd>Photoshop, Illustrator, Premiere Pro, After Effects</dd>
-                                </dl>
-                                <dl>
-                                    <dt>러닝타임</dt>
-                                    <dd>15s</dd>
-                                </dl>
-                                <dl>
-                                    <dt>URL주소</dt>
-                                    <dd>https://www.youtube.com/</dd>
-                                </dl>
-                            </div>
-                        </div> 
-                    </div>
-                </div><!-- .motion_list 4 -->
-
-            </div><!-- .swiper -->
-        </div><!-- .youtube_wrap -->
-    </section><!-- .youtube list -->
-
-    <!-- 그래픽디자인 -->
-    <section class="g_design">
-        <h3>2D VISUAL DESIGN</h3>
-        <em>클릭하시면 큰 이미지를 보실 수 있습니다.</em>
-            <div class="imglist"> 
-                <div>
-                    <a href="https://source.unsplash.com/i2KibvLYjqk/1500x1000" data-fancybox="images">
-                        <figure><img src="https://source.unsplash.com/i2KibvLYjqk/240x160" /></figure>
-                        <ul>
-                            <li>캐릭터디자인</li>    
-                            <li>Photoshop / oo영상 사용</li>    
-                        </ul>
+                <article>
+                    <a href="#">
+                        <dl>
+                            <dt>과정수업내용</dt>
+                            <dd>각 과정에 대한 수업자료</dd>
+                            <dd><button type="button" onclick="window.open('http://webtong.kr') ">웹통으로  새창이동</button></dd>
+                        </dl>
+                         
                     </a>
-                </div>
-                
-                <div>
-                    <a href="https://source.unsplash.com/RFgO9B_OR4g/1500x1000" data-fancybox="images">
-                        <figure><img src="https://source.unsplash.com/RFgO9B_OR4g/240x160" /></figure>
-                        <ul>
-                            <li>제품디자인</li>    
-                            <li>Photoshop / oo영상 사용</li>      
-                        </ul> 
+                </article>
+
+                <article>
+                    <a href="#">
+                        <dl>
+                            <dt>포트폴리오</dt>
+                            <dd>웹디자이너 포트폴리오 모음</dd>
+                            <dd><button type="button" onclick="window.open('http://webtong.kr') ">웹통으로  새창이동</button></dd>
+                        </dl>
+                         
                     </a>
-                </div>
-            
-                <div>
-                    <a href="https://source.unsplash.com/7bwQXzbF6KE/1500x1000" data-fancybox="images">
-                        <figure> <img src="https://source.unsplash.com/7bwQXzbF6KE/240x160" /></figure>
-                        <ul>
-                            <li>제작목적</li>    
-                            <li>이름</li>    
-                        </ul>
+                </article>
+                <article>
+                    <a href="#">
+                        <dl>
+                            <dt>벤치마킹</dt>
+                            <dd>벤치마킹 스크린샷 모음</dd>
+                            <dd><button type="button" onclick="window.open('http://webtong.kr') ">웹통으로  새창이동</button></dd>
+                        </dl>
+                        
                     </a>
+                </article>
+
+                <div class="cont04_img">
+                    <div></div>
+                    <div></div>
                 </div>
-            
-                <div>
-                    <a href="https://source.unsplash.com/NhU0nUR7920/1500x1000" data-fancybox="images">
-                        <figure>  <img src="https://source.unsplash.com/NhU0nUR7920/240x160" /></figure>
-                        <ul>
-                            <li>제작목적</li>    
-                            <li>이름</li>    
-                        </ul>
-                    </a> 
-                </div>
+
             </div>
-       
-    </section><!-- .g_design end -->
+        </section> --><!-- .cont04 end -->
 
-    <footer>
-        <h3>HaSuJeong</h3>  
-        <ul>
-            <li><a href="#">유튜브채널 바로가기</a></li>
-            <li><a href="tel:010-1234-5678">010 1234 5678</a></li> 
-            <li>jwebdew@gmail.com </li>
-        </ul>
-        <p>COPYRIGHT 2022. HaSuJeong ALL RIGHTS RESERVED.<br />본 사이트는 개인 포트폴리오 사이트로 제작되어 상업적 목적이 아닙니다. 사용된 일부 이미지 및 폰트 등은 별도의 출처가 있음을 밝혀 드립니다.</p>
-    </footer>
-
-
-
-    <!-- 스크립트 작성 공간 -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js" integrity="sha512-uURl+ZXMBrF4AwGaWmEetzrd+J5/8NRkWAvJx5sbPSSuOb0bZLqf+tOzniObO00BjHa/dD7gub9oCGMLPQHtQA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
- 
-
-    <!-- Initialize Swiper -->
-    <script>
-     
-        $(function(){
-
-            $(window).resize(function(){
-                if($(window).width() < 767) {
-                    var swiper = new Swiper(".mySwiperBeween", {
-                    slidesPerView: 1.2,
-                    spaceBetween: 15,
-                        observer: true,
-                        observeParents: true,
-                });
-                } //if
-            });//window
-
-        $('.motion_cate li').click(function(){
-            $('.motion_cate li') .removeClass('on');
-            $(this).addClass('on');
-
-            $('.motion_list').removeClass('on');
-            $('.motion_list').eq($(this).index()).addClass('on');
+        <section class="cont05">
+            <div class="title">
+                <h3>작업 결과물</h3>
+                <p>훈련생들과 수업과정에 대한 작업결과물</p>
+            </div>
             
+            <article>
+                <div id="carouselTicker-width-resize" class="carouselTicker">
+                    <ul class="carouselTicker__list">
+                        <li class="carouselTicker__item">
+                            <a href="http://hxxznro.dothome.co.kr/portfolio.html" target="_blank">
+                                <img src="img/green/20210412_01.jpg" alt="고혜진포트폴리오" /> 
+                                <p>고혜진 포트폴리오</p>
+                                <p>#20211029 #반응형웹디자인</p>
+                            </a>
+                        </li>
+                        <li class="carouselTicker__item">
+                            <a href="http://haileykim.pe.kr/" target="_blank">
+                                <img src="img/green/20210412_02.jpg" alt="김가현포트폴리오" />
+                                <p>김가현 포트폴리오</p>
+                                <p>#20211029 #반응형웹디자인</p>
+                            </a>
+                        </li>
+                        <li class="carouselTicker__item">
+                            <a href="http://kwakk11.dothome.co.kr/KwakDaRyeon.html" target="_blank">
+                                <img src="img/green/20210412_03.jpg" alt="곽다련포트폴리오" />
+                                <p>곽다련 포트폴리오</p>
+                                <p>#20211029 #반응형웹디자인</p>
+                            </a>
+                        </li>
+                        <li class="carouselTicker__item">
+                            <a href="http://dlehdwn1105.dothome.co.kr/index.html" target="_blank">
+                                <img src="img/green/20210412_04.jpg" alt="이동주포트폴리오" />
+                                <p>이동주 포트폴리오</p>
+                                <p>#20211029 #반응형웹디자인</p>
+                            </a>
+                        </li>
+                        <li class="carouselTicker__item">
+                            <a href="http://left970.dothome.co.kr/" target="_blank">
+                                <img src="img/green/20210412_05.jpg" alt="좌은정포트폴리오" />
+                                <p>좌은정 포트폴리오</p>
+                                <p>#20211029 #반응형웹디자인</p>
+                            </a>
+                        </li>
+                        <li class="carouselTicker__item">
+                            <a href="" target="_blank">
+                                <img src="https://via.placeholder.com/285x285" alt="결과물썸네일" />
+                                <p>2021.10.29 고혜진 포트폴리오</p>
+                            </a>
+                        </li>
+                        <li class="carouselTicker__item">
+                            <a href="" target="_blank">
+                                <img src="https://via.placeholder.com/285x285" alt="결과물썸네일" />
+                                <p>2021.10.29 고혜진 포트폴리오</p>
+                            </a>
+                        </li>
+                        <li class="carouselTicker__item">
+                            <a href="" target="_blank">
+                                <img src="https://via.placeholder.com/285x285" alt="결과물썸네일" />
+                                <p>2021.10.29 고혜진 포트폴리오</p>
+                            </a>
+                        </li>
+                        <li class="carouselTicker__item">
+                            <a href="" target="_blank">
+                                <img src="https://via.placeholder.com/285x285" alt="결과물썸네일" />
+                                <p>2021.10.29 고혜진 포트폴리오</p>
+                            </a>
+                        </li>
+                        <li class="carouselTicker__item">
+                            <a href="" target="_blank">
+                                <img src="https://via.placeholder.com/285x285" alt="결과물썸네일" />
+                                <p>2021.10.29 고혜진 포트폴리오</p>
+                            </a>
+                        </li>
+                         
+                    </ul>
+                </div>
+            </article>
+        </section><!-- .cont05 end -->
+        
+        <footer>
+            <div>
+                <img src="img/footer_logo.png" alt="하수정" />
+                <address>Copyright 2022. hasujeong All rights reserved.</address>
+            </div>
+        </footer>
+    </main>
 
-        });//motion_cate li click
+    <script src="lib/jquery-3.6.0.min.js"></script> 
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script><!-- 스와이퍼 -->
+    <!-- <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script> -->
+    <script src="lib/jquery.carouselTicker.min.js"></script>
+    <script src="lib/start.js"></script>
+    <script src="js/main.js"></script>
 
-        $('.motion_cate li a').click(function(e){
-            e.preventDefault();
-        }); //a태그 올라가는거 방지
+    <!-- <script>
+        var swiper = new Swiper(".mySwiper", {
+          pagination: {
+            el: ".swiper-pagination",
+          },
+          autoplay: {
+          delay: 2500,
+          disableOnInteraction: false,
+          }
+        });
 
-       
-       
-      });//jqeury end : 
-       
-    </script>
-
-
-<!-- mp4 자동 플레이 작성 법 -->
-<!-- video태그안에 autuplay muted loop 작성 
-    <video autuplay muted loop>
----------------------------------------------------->
-
-    <!-- 유튜브 자동 플레이 작성 법 
-    자동재생, 음소거 ?autoplay=1&mute=1
-        반복재생 &amp;playlist=DkXvif19ffg&amp;loop=1
-        시작시간 추가시 자동재생, 음소거에서 ?대신에 &autoplay=1&mute=1
-
-        숫자 뒤에 &amp;playlist=DkXvif19ffg&amp;loop=1&autoplay=1&mute=1 작성 시 
-        자동재생 반복재생
-        DkXvif19ffg => 유튜브 주소임 유튜브에 따라서 변경
-    -->
+        // $('.cont03_sliders').slick({
+        //     infinite: true,
+        //     slidesToShow: 4,
+        //     slidesToScroll: 1,
+        //     // centerMode: true,
+        //     focusOnSelect: true
+        // });
+        var swiper = new Swiper(".cont03_sliders", {
+            slidesPerView: 3.7,
+            spaceBetween: 30,
+            
+            navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+            },
+      });
+      </script> -->
 </body>
 </html>
